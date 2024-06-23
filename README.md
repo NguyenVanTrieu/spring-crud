@@ -7,6 +7,7 @@
 - [Create model](#create-model)
 - [Create jpa repository](#create-jpa-repository)
 - [Create controller](#create-controller)
+- [Call api by postman](#import-postman-collection)
 # Pre-reqs
 To build and run this app locally you will need a few things:
 - Install jdk
@@ -63,3 +64,5 @@ Declare get, post, put, delete mothods are read, create, update, delete respecti
 @PutMapping(value = "/{id}") // update by id
 @DeleteMapping(value = "/contact/{id}") // delete by id
 ```
+# Import postman collection
+[Findo-lecture-5.postman_collection.json](image%2FFindo-lecture-5.postman_collection.json)
